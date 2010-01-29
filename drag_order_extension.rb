@@ -2,7 +2,7 @@
 require_dependency( Radiant::Version::Minor.to_i < 8 ? 'application' : 'application_controller' )
 
 class DragOrderExtension < Radiant::Extension
-  version "0.3.2"
+  version "0.3.3"
   description "This extension allows pages to be moved or copied to any arbitrary (valid)
     place in the document tree structure by dragging the page to its new position and
     dropping it there. Created by Bright 4, February 2009. Inspired by and based on Sean

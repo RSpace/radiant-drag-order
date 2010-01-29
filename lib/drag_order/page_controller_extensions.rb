@@ -98,7 +98,7 @@ module DragOrder::PageControllerExtensions
     end
     
     # Redirect back to the admin pages page
-    request.env["HTTP_REFERER"] ? redirect_to(:back) : redirect_to(admin_page_url)
+    request.env["HTTP_REFERER"] ? redirect_to(:back) : redirect_to(admin_pages_url)
   end
   
 end

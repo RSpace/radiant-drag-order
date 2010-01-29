@@ -55,6 +55,9 @@ To bypass the ordering system simply supply a "by" option to the finder tags.
 
 == Version History
 
+# v0.3.3 - 29-01-2010
+- Fixed an IE related bug where an error would appear after dragging a page to another position [Casper Fabricius]
+
 # v0.3.2 - 18-11-2009
 - Made compatible with Radiant 0.8.1. This extension should now be compatible with at least version >= 0.6.9
 
